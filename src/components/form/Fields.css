@@ -1,0 +1,65 @@
+.field {
+  margin: 1.25rem 0;
+}
+
+.field > label,
+.radio-field legend {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #172033;
+  font-weight: 650;
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid #8a94a6;
+  border-radius: 0.35rem;
+  background: #fff;
+  color: #172033;
+  font: inherit;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  outline: 3px solid #91b4ff;
+  outline-offset: 2px;
+}
+
+.field [aria-invalid='true'] {
+  border-color: #b42318;
+}
+
+.field-error {
+  margin: 0.35rem 0 0;
+  color: #b42318;
+  font-size: 0.9rem;
+}
+
+.checkbox-field > div,
+.radio-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.checkbox-field input,
+.radio-option input {
+  width: auto;
+  margin-top: 0.3rem;
+}
+
+.radio-field {
+  padding: 0;
+  border: 0;
+}
+
+.radio-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
